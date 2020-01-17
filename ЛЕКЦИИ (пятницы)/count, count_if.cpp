@@ -1,6 +1,6 @@
-//// ConsoleApplication71.cpp: определяет точку входа для консольного приложения.
+п»ї//// ConsoleApplication71.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 ////
-//// ConsoleApplication71.cpp: определяет точку входа для консольного приложения.
+//// ConsoleApplication71.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 ////
 
 
@@ -20,15 +20,15 @@ int main(){
 		cin >> arr[i];
 	}
 
-	// подсчёт элементов, равных 0
+	// РїРѕРґСЃС‡С‘С‚ СЌР»РµРјРµРЅС‚РѕРІ, СЂР°РІРЅС‹С… 0
 	int count = 0;
 	for (int i = 0; i < N; i++){
 		if (arr[i] == 0){
 			count++;
 		}
 	}
-	cout << "Ручной подсчёт нулей = " << count << endl;
-	cout << "std::count() для нулей = " << std::count(arr, arr + N, 0) << endl;
+	cout << "Р СѓС‡РЅРѕР№ РїРѕРґСЃС‡С‘С‚ РЅСѓР»РµР№ = " << count << endl;
+	cout << "std::count() РґР»СЏ РЅСѓР»РµР№ = " << std::count(arr, arr + N, 0) << endl;
 
 	count = 0;
 	for (int i = 0; i < N; i++){
@@ -36,8 +36,8 @@ int main(){
 			count++;
 		}
 	}
-	cout << "Ручной подсчёт чётных = " << count << endl;
-	cout << "std::count() для чётных = " << std::count_if(arr, arr + N, 
+	cout << "Р СѓС‡РЅРѕР№ РїРѕРґСЃС‡С‘С‚ С‡С‘С‚РЅС‹С… = " << count << endl;
+	cout << "std::count() РґР»СЏ С‡С‘С‚РЅС‹С… = " << std::count_if(arr, arr + N, 
 		[](int x){ /*return x % 2 == 0;*/
 		if (x % 2 == 0){
 			return true;

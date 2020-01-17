@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -37,13 +37,13 @@ int main()
 	R1.print();
 	cout << "Counter = " << rectangle::getCounter() << endl;
 
-	// Ïîëó÷àëîñü áåç explicit
+	// ÐŸÐ¾Ð»ÑƒÑ‡Ð°Ð»Ð¾ÑÑŒ Ð±ÐµÐ· explicit
 	// rectangle R2 = { 4, 7 };
 	rectangle R2 = rectangle{ 4, 7 };
 	R2.print();
 	cout << "Counter = " << rectangle::getCounter() << endl;
 
-	// Ïîëó÷àëîñü áåç explicit
+	// ÐŸÐ¾Ð»ÑƒÑ‡Ð°Ð»Ð¾ÑÑŒ Ð±ÐµÐ· explicit
 	//rectangle R3 = 5; // -> rectangle R3 = rectangle(5);
 	rectangle R3 = rectangle(5);
 	R3.print();

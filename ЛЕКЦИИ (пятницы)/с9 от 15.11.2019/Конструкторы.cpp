@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -15,9 +15,9 @@ struct goods{
 	char name[40];
 	double price = 0;
 	int type = 0;
-	static double percent[3]; // Статическое поле данных – одно на все объекты
+	static double percent[3]; // РЎС‚Р°С‚РёС‡РµСЃРєРѕРµ РїРѕР»Рµ РґР°РЅРЅС‹С… вЂ“ РѕРґРЅРѕ РЅР° РІСЃРµ РѕР±СЉРµРєС‚С‹
 	
-	//Конструктор общего вида
+	//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РѕР±С‰РµРіРѕ РІРёРґР°
 	goods(char * n = "No name", double p = 0, int t = 0){
 		cout << "Common constructor!" << endl;
 		strcpy_s(name, n);
@@ -39,7 +39,7 @@ struct goods{
 		type = 0;
 	}
 
-	// Конструктор без параметров
+	// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ
 	//goods(){
 	//	strcpy_s(name, "No name");
 	//	price = 0;
@@ -56,7 +56,7 @@ struct goods{
 	}
 };
 
-double goods::percent[3] = {10, 20, 30}; // Инициализация статического поля данных
+double goods::percent[3] = {10, 20, 30}; // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РїРѕР»СЏ РґР°РЅРЅС‹С…
 
 class math{
 public:

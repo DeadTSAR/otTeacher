@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include <iostream>
 #include <limits>
 #include <cstdint>
@@ -37,7 +37,7 @@ int main() {
 	cout << another_var << ' ' << i << endl;
 
 	int ii[8];
-	cout << ii[0] << endl; //Ìóñîð
+	cout << ii[0] << endl; //Ñ›ÑƒÑÐ¾Ñ€
 
 	unsigned int my_unsigned_var = 10;
 	// unsigned my_unsigned_var = 10;

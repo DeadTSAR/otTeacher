@@ -1,4 +1,4 @@
-// ConsoleApplication72.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication72.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -14,9 +14,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	int n, m, l;
 	cin >> n >> m >> l;
 	double ***matr;
-	matr = new double **[n]; // n - глубина
+	matr = new double **[n]; // n - РіР»СѓР±РёРЅР°
 	for (int i = 0; i<n; i++){
-		matr[i] = new double *[m]; // m - строки
+		matr[i] = new double *[m]; // m - СЃС‚СЂРѕРєРё
 		for (int j = 0; j<m; j++){
 			matr[i][j] = new double[l];
 		}

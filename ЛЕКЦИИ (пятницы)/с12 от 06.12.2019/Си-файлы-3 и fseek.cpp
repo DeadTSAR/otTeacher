@@ -1,4 +1,4 @@
-// ConsoleApplication78.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication78.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -25,8 +25,8 @@ int main()
 
 	FILE * fileWrite;
 	fopen_s(&fileWrite, "1.txt", "w");
-	fwrite(&count, sizeof(unsigned int), 1, fileWrite); // запись кол-ва
-	fwrite(sp, sizeof(sportsman), count, fileWrite); // запись спортсменов
+	fwrite(&count, sizeof(unsigned int), 1, fileWrite); // Р·Р°РїРёСЃСЊ РєРѕР»-РІР°
+	fwrite(sp, sizeof(sportsman), count, fileWrite); // Р·Р°РїРёСЃСЊ СЃРїРѕСЂС‚СЃРјРµРЅРѕРІ
 	fclose(fileWrite);
 
 	delete[] sp;
@@ -34,9 +34,9 @@ int main()
 	unsigned int count2;
 	FILE * fileRead;
 	fopen_s(&fileRead, "1.txt", "r+");
-	fread(&count2, sizeof(unsigned int), 1, fileRead); // получение кол-ва
+	fread(&count2, sizeof(unsigned int), 1, fileRead); // РїРѕР»СѓС‡РµРЅРёРµ РєРѕР»-РІР°
 	sportsman * sp2 = new sportsman[count2];
-	fread(sp2, sizeof(sportsman), count2, fileRead); // запись спортсменов
+	fread(sp2, sizeof(sportsman), count2, fileRead); // Р·Р°РїРёСЃСЊ СЃРїРѕСЂС‚СЃРјРµРЅРѕРІ
 	//fclose(fileRead);
 
 	cout << "READ DATA: " << endl;
@@ -60,9 +60,9 @@ int main()
 	unsigned int count3;
 	FILE * fileRead2;
 	fopen_s(&fileRead2, "1.txt", "r");
-	fread(&count3, sizeof(unsigned int), 1, fileRead2); // получение кол-ва
+	fread(&count3, sizeof(unsigned int), 1, fileRead2); // РїРѕР»СѓС‡РµРЅРёРµ РєРѕР»-РІР°
 	sportsman * sp3 = new sportsman[count3];
-	fread(sp3, sizeof(sportsman), count3, fileRead2); // запись спортсменов
+	fread(sp3, sizeof(sportsman), count3, fileRead2); // Р·Р°РїРёСЃСЊ СЃРїРѕСЂС‚СЃРјРµРЅРѕРІ
 	fclose(fileRead2);
 
 	cout << "READ DATA: " << endl;

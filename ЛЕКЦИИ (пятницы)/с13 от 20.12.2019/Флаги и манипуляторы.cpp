@@ -1,4 +1,4 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -10,7 +10,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	cout.unsetf(ios::scientific); // снять установленные флаги
+	cout.unsetf(ios::scientific); // СЃРЅСЏС‚СЊ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рµ С„Р»Р°РіРё
 	cout.setf(ios::fixed);
 	cout.precision(0);
 	cout << pow(2, 20) << endl;

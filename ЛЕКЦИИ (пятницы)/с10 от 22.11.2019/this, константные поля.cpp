@@ -1,11 +1,11 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include <stdexcept>
 #include <iostream>
 #include <string>
-#include <algorithm> // подключаем STL для shuffle
+#include <algorithm> // РїРѕРґРєР»СЋС‡Р°РµРј STL РґР»СЏ shuffle
 using namespace std;
 
 class point;
@@ -40,7 +40,7 @@ bool isInLine(line & L, point & P){
 		return false;
 }
 
-// ПРИМЕР КОНСТАНТНОГО ПОЛЯ
+// РџР РРњР•Р  РљРћРќРЎРўРђРќРўРќРћР“Рћ РџРћР›РЇ
 class C{
 public:	
 	const int i;
@@ -52,7 +52,7 @@ public:
 	}
 };
 
-//ПРИМЕР THIS
+//РџР РРњР•Р  THIS
 class IntPair{
 public:
 	int first;

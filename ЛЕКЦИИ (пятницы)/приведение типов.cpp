@@ -1,6 +1,6 @@
-// ConsoleApplication71.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication71.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
-// ConsoleApplication71.cpp: определяет точку входа для консольного приложения.
+// ConsoleApplication71.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -15,10 +15,10 @@ int main(){
 	cout << int('a') << endl;
 	cout << static_cast<int>('a') << endl;
 
-	cout << (int)'ы' << endl;
-	cout << (unsigned int)'ы' << endl;
-	cout << int('ы') << endl;
-	cout << static_cast<int>('ы') << endl;
+	cout << (int)'С‹' << endl;
+	cout << (unsigned int)'С‹' << endl;
+	cout << int('С‹') << endl;
+	cout << static_cast<int>('С‹') << endl;
 
 	vector<int> v(3, -3);
 	//{-3, -3, -3};

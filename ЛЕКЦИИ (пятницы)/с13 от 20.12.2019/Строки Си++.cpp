@@ -1,4 +1,4 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -29,16 +29,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	string S6(8, '#');
 	cout << S6 << endl;
 
-	// В стиле Си
+	// Р’ СЃС‚РёР»Рµ РЎРё
 	char charmas[14] = "Hello, world!";
 	//charmas = "Hello";
 	strcpy_s(charmas, "Hello");
 	cout << charmas << endl;
 
-	// В стиле Си++
-	S6 = S2 + "Hello"; // верно
+	// Р’ СЃС‚РёР»Рµ РЎРё++
+	S6 = S2 + "Hello"; // РІРµСЂРЅРѕ
 	cout << S6 << endl;
-	// S6 = "Example" + "Hello"; // неверно
+	// S6 = "Example" + "Hello"; // РЅРµРІРµСЂРЅРѕ
 	S6 = string("Example") + "Hello";
 	cout << S6 << endl;
 	cout << ("Example" + 3) << endl;
@@ -81,7 +81,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	string3.insert(begin(string3) + 3, begin(string4) + 2, end(string4) - 2);
 	cout << string3 << endl;
 
-	// Замена подстрок
+	// Р—Р°РјРµРЅР° РїРѕРґСЃС‚СЂРѕРє
 	string str("one two three four one two ");
 	string strForReplace("o");
 	string newString("oo");

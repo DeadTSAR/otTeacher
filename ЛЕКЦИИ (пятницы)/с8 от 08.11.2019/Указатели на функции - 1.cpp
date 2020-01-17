@@ -1,4 +1,4 @@
-// ConsoleApplication72.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication72.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -21,16 +21,16 @@ void print2(void){
 }
 
 int main() {
-	print();				// вызов функции
-	cout << print << endl;	// печатаем адрес функции
+	print();				// РІС‹Р·РѕРІ С„СѓРЅРєС†РёРё
+	cout << print << endl;	// РїРµС‡Р°С‚Р°РµРј Р°РґСЂРµСЃ С„СѓРЅРєС†РёРё
 
 	void(*functionPointer)(void);
 	functionPointer = print;
-	functionPointer();		// вызов функции
+	functionPointer();		// РІС‹Р·РѕРІ С„СѓРЅРєС†РёРё
 	cout << functionPointer << endl;
 
 	functionPointer = print2;
-	functionPointer();		// вызов функции
+	functionPointer();		// РІС‹Р·РѕРІ С„СѓРЅРєС†РёРё
 	cout << functionPointer << endl;
 
 	return 0;

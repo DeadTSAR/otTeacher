@@ -1,11 +1,11 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include <stdexcept>
 #include <iostream>
 #include <string>
-#include <algorithm> // подключаем STL для shuffle
+#include <algorithm> // РїРѕРґРєР»СЋС‡Р°РµРј STL РґР»СЏ shuffle
 using namespace std;
 
 class A{};
@@ -19,10 +19,10 @@ struct sportsman{
 int main()
 {
 	cout << sizeof(A) << endl;
-	// статический
+	// СЃС‚Р°С‚РёС‡РµСЃРєРёР№
 	//sportsman mas[10];
 
-	// динамический
+	// РґРёРЅР°РјРёС‡РµСЃРєРёР№
 	sportsman * mas = new sportsman[4];
 	for (int i = 0; i < 4; i++){
 		cout << "Input sportsman's data: ";

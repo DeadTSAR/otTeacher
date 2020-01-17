@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -23,10 +23,10 @@ struct rectangle{
 //}
 
 int main()
-{       // Определение объекта класса:
-	rectangle R1; // Можно инициализировать: rectangle R1 = {5, 3.5};
-	//R1.rectangle::width = 5; R1.rectangle::height = 3.5; // Присваивание значений в поля данных
-	R1.rectangle::printData(); // Вызов метода
+{       // РћРїСЂРµРґРµР»РµРЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР°:
+	rectangle R1; // РњРѕР¶РЅРѕ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊ: rectangle R1 = {5, 3.5};
+	//R1.rectangle::width = 5; R1.rectangle::height = 3.5; // РџСЂРёСЃРІР°РёРІР°РЅРёРµ Р·РЅР°С‡РµРЅРёР№ РІ РїРѕР»СЏ РґР°РЅРЅС‹С…
+	R1.rectangle::printData(); // Р’С‹Р·РѕРІ РјРµС‚РѕРґР°
 	cout << "\nPerimeter/2 = " << R1.rectangle::halfperim() << endl;
 	cout << "\nPerimeter = " << R1.rectangle::perimeter();
 	return 0;

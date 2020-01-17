@@ -1,4 +1,4 @@
-// ConsoleApplication72.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication72.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -24,7 +24,7 @@ typedef unsigned int uint;
 uint myVar = 321;
 
 typedef double(*numericFunctionType)(double, double);
-// numericFunctionType - наш собственный тип
+// numericFunctionType - РЅР°С€ СЃРѕР±СЃС‚РІРµРЅРЅС‹Р№ С‚РёРї
 
 int main() {
 	// double(*fPtr)(double, double);

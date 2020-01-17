@@ -1,4 +1,4 @@
-// ConsoleApplication72.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication72.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -17,7 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	*/
 	vector<bool> vect;
 
-	// Первый вариант
+	// РџРµСЂРІС‹Р№ РІР°СЂРёР°РЅС‚
 	vector<vector<int>> matrix;
 	matrix.push_back({ 9, 5, 6});
 	matrix.push_back({ 9, 100, 11});

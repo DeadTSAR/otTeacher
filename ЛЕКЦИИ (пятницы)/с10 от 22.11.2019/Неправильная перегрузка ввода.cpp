@@ -1,11 +1,11 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include <stdexcept>
 #include <iostream>
 #include <string>
-#include <algorithm> // подключаем STL для shuffle
+#include <algorithm> // РїРѕРґРєР»СЋС‡Р°РµРј STL РґР»СЏ shuffle
 using namespace std;
 
 class myComplex{
@@ -53,7 +53,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	V = V + W; // operator+(V, W)
 	cout << "V =\t" << V; // operator<<(cout, V)
 	V = -V; // V.operator-();
-	cout << V << W << V << W; // Так как оператор-функция operator<< возвращает ссылку на
-	// объект класса ostream, допустимо использование «цепочек» при выводе
+	cout << V << W << V << W; // РўР°Рє РєР°Рє РѕРїРµСЂР°С‚РѕСЂ-С„СѓРЅРєС†РёСЏ operator<< РІРѕР·РІСЂР°С‰Р°РµС‚ СЃСЃС‹Р»РєСѓ РЅР°
+	// РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° ostream, РґРѕРїСѓСЃС‚РёРјРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ В«С†РµРїРѕС‡РµРєВ» РїСЂРё РІС‹РІРѕРґРµ
 	return 0;
 }

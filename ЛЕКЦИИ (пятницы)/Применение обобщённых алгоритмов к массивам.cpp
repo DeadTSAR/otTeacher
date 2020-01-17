@@ -1,6 +1,6 @@
-//// ConsoleApplication71.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
+ï»¿//// ConsoleApplication71.cpp: Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÑÐµÑ‚ Ñ‚Ð¾Ñ‡ÐºÑƒ Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ ÐºÐ¾Ð½ÑÐ¾Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ.
 ////
-//// ConsoleApplication71.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
+//// ConsoleApplication71.cpp: Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÑÐµÑ‚ Ñ‚Ð¾Ñ‡ÐºÑƒ Ð²Ñ…Ð¾Ð´Ð° Ð´Ð»Ñ ÐºÐ¾Ð½ÑÐ¾Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ.
 ////
 
 
@@ -46,22 +46,22 @@ int main(){
 	int threshold;
 	cin >> threshold;
 
-	cout << "Çíà÷åíèé áîëüøèõ çàäàííîãî = " <<
+	cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ð±Ð¾Ð»ÑŒÑˆÐ¸Ñ… Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ = " <<
 		std::count_if(arr, arr + N, [threshold, N](int val){return val > threshold; }) << endl;
 
-	cout << "Ìèíèìàëüíûé ýëåìåíò: " << *min_element(arr, arr + N) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << *min_element(arr, arr + N) << endl;
 	int minElement = *min_element(arr, arr + N);
-	cout << "Ìèíèìàëüíûé ýëåìåíò: " << minElement << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << minElement << endl;
 
 	int min = arr[0];
 	for (int i = 0; i < N; i++){
 		if (arr[i] < min)
 			min = arr[i];
 	}
-	cout << "Ìèíèìàëüíûé ýëåìåíò: " << min << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << min << endl;
 
 	sort(arr, arr + N);
-	cout << "Ìàññèâ ïîñëå ñîðòèðîâêè: " << endl;
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ð¿Ð¾ÑÐ»Ðµ ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ¸: " << endl;
 	//for (int i = 0; i < N; i++){
 	//	cout << arr[i] << '\t';
 	//}

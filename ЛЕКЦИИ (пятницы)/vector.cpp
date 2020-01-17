@@ -1,4 +1,4 @@
-
+﻿
 #include "stdafx.h"
 #define MY_PI 3.14
 #include <iostream>

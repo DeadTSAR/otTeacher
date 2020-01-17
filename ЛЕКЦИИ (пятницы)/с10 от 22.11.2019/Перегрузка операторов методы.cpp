@@ -1,11 +1,11 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include <stdexcept>
 #include <iostream>
 #include <string>
-#include <algorithm> // подключаем STL для shuffle
+#include <algorithm> // РїРѕРґРєР»СЋС‡Р°РµРј STL РґР»СЏ shuffle
 using namespace std;
 
 class IntPair{
@@ -42,7 +42,7 @@ int main()
 	cout << "ip3.first = " << ip3.first << endl;
 	cout << "ip3.second = " << ip3.second << endl;
 
-	// с explicit-constructor невозможно
+	// СЃ explicit-constructor РЅРµРІРѕР·РјРѕР¶РЅРѕ
 	// ip3 = 4 * ip3; 
 	ip3 = IntPair(4) * ip3;
 	cout << "ip3.first = " << ip3.first << endl;

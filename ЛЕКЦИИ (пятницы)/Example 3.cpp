@@ -1,4 +1,4 @@
-// ConsoleApplication69.cpp: îïğåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïğèëîæåíèÿ.
+ï»¿// ConsoleApplication69.cpp: Ğ¾Ğ¿Ñ€ĞµĞ´ĞµĞ»ÑĞµÑ‚ Ñ‚Ğ¾Ñ‡ĞºÑƒ Ğ²Ñ…Ğ¾Ğ´Ğ° Ğ´Ğ»Ñ ĞºĞ¾Ğ½ÑĞ¾Ğ»ÑŒĞ½Ğ¾Ğ³Ğ¾ Ğ¿Ñ€Ğ¸Ğ»Ğ¾Ğ¶ĞµĞ½Ğ¸Ñ.
 //
 
 #include "stdafx.h"
@@ -24,8 +24,8 @@ enum {zero = 10, one, two = 20, three};
 
 int main() {
 	PRINT_RESULT(sizeof 1.5) // -> cout << "sizeof 1.5" << " = " << (sizeof 1.5);
-	cout << "sizeof 1.5 = " << (sizeof 1.5) << endl; // 1.5 - äâîéíàÿ òî÷íîñòü
-	cout << "sizeof(1.5f) = " << (sizeof(1.5f)) << endl; // 1.5f - îäèíàğíàÿ òî÷íîñòü
+	cout << "sizeof 1.5 = " << (sizeof 1.5) << endl; // 1.5 - Ğ´Ğ²Ğ¾Ğ¹Ğ½Ğ°Ñ Ñ‚Ğ¾Ñ‡Ğ½Ğ¾ÑÑ‚ÑŒ
+	cout << "sizeof(1.5f) = " << (sizeof(1.5f)) << endl; // 1.5f - Ğ¾Ğ´Ğ¸Ğ½Ğ°Ñ€Ğ½Ğ°Ñ Ñ‚Ğ¾Ñ‡Ğ½Ğ¾ÑÑ‚ÑŒ
 	cout << sizeof(100) << endl;
 	// short <= int <= longint
 	cout << sizeof(100L) << endl;

@@ -1,4 +1,4 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -14,13 +14,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	ofstream fout("123.txt");
 	fout << "Hello, world!";
 	fout.seekp(-5, ios::end);
-	// fout.tellp(); // получение
+	// fout.tellp(); // РїРѕР»СѓС‡РµРЅРёРµ
 	fout << "Bye";
 	fout.close();
 
 	ifstream fin("123.txt");
 	fin.seekg(2, ios::beg);
-	// fin.tellg(); // получение
+	// fin.tellg(); // РїРѕР»СѓС‡РµРЅРёРµ
 	string data;
 	fin >> data;
 	cout << data << endl;

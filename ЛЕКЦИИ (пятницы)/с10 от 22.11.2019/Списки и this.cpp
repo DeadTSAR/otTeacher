@@ -1,11 +1,11 @@
-// ConsoleApplication5.cpp: определяет точку входа для консольного приложения.
+п»ї// ConsoleApplication5.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include <stdexcept>
 #include <iostream>
 #include <string>
-#include <algorithm> // подключаем STL для shuffle
+#include <algorithm> // РїРѕРґРєР»СЋС‡Р°РµРј STL РґР»СЏ shuffle
 using namespace std;
 
 class member{
@@ -23,7 +23,7 @@ public:
 		this->next = 0;
 	}
 	static void print(){
-		member * uk; // вспомогательный указатель
+		member * uk; // РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ СѓРєР°Р·Р°С‚РµР»СЊ
 		uk = first_memb;
 		if (uk == 0) cout << "Empty list!";
 		else
@@ -34,7 +34,7 @@ public:
 		cout << '\n';
 	}
 	static void printOdd(){
-		member * uk; // вспомогательный указатель
+		member * uk; // РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ СѓРєР°Р·Р°С‚РµР»СЊ
 		uk = first_memb;
 		if (uk == 0) cout << "Empty list!";
 		else
@@ -45,7 +45,7 @@ public:
 		cout << '\n';
 	}
 	static void printBack(){
-		member * uk; // вспомогательный указатель
+		member * uk; // РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ СѓРєР°Р·Р°С‚РµР»СЊ
 		uk = last_memb;
 		if (uk == 0) cout << "Empty list!";
 		else
